@@ -125,7 +125,10 @@ ul li {
 
 .slide3 h4 {
     margin: 0 auto;
+    color: #64faff;
+    text-shadow: 2px 2px 2px #000000;
     text-align: center
+
 }
 
 .slide3 .list li {
@@ -214,8 +217,16 @@ ul li {
 }
 
 .slide4 ul li a {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    border-radius: 40%;
     text-decoration: none;
-    color: gainsboro;
+    color: #636363;
+    background: #64faff;
+    top:-20px;
+
 }
 
 .slide4 ul li span {
@@ -241,14 +252,15 @@ ul li {
 
 .slide4 ul li:hover a {
     color: black;
+    text-shadow: 1px 3px 2px #484848;
 }
 
-.slide4 ul li:hover span {
-    transition: 2s;
-    height: 40px;
-    line-height: 40px;
-    color: black;
-}
+/*.slide4 ul li:hover span {*/
+    /*transition: 2s;*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    /*color: black;*/
+/*}*/
 
 .slide4 ul li:nth-child(1) {
     background: url("../img/QQ.jpg") no-repeat -5px;
